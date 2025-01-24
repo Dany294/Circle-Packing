@@ -5,9 +5,7 @@ This project seeks finding the maximum radius for the packing of n circles in a 
 As suggested by the paper, the solution of this problems implies the solution of the problem of packing the most circles with a given radius in a box (by just scaling the dimensions and comparing configurations).
 
 ## Results
-This piece of code succesfully aproaches the results from the paper, as an example, some pictures for a couple n's are showed:
-Case n = 15, radius = 0.33333325745868114 (best known configuration (listed in http://www.packomania.com/): radius = 0.341081377402108877637121191351 )
-![packing_n15](https://github.com/user-attachments/assets/7254f60c-096b-4006-97cc-4f5e3e7096c7)
+This piece of code succesfully aproaches the results from the paper. Some plots for the obtained configurations are shown as follows:
 
 Case n = 25, radius = 0.2499999999455803 (in the paper, radius =  0.250000000 ) 
 ![packing_n25](https://github.com/user-attachments/assets/979013d2-ae55-4928-9c28-a650d71bb9eb)
@@ -15,7 +13,7 @@ Case n = 25, radius = 0.2499999999455803 (in the paper, radius =  0.250000000 )
 Case n = 45, radius = 0.17277096895323163 (in the paper, radius = 0.175515450)
 ![packing_n45](https://github.com/user-attachments/assets/ec8ae9c8-a717-4459-b6a7-addc7e93cbd8)
 
-Case n = 81, radius = 0.12499950076451175 (in the best known configuration, radius = 0.128336855973876344193090313501 )
+Case n = 81, radius = 0.12499950076451175 (in the best known configuration (listed in http://www.packomania.com/), radius = 0.12833685597387634419 )
 ![packing_n81](https://github.com/user-attachments/assets/33dd954a-a944-4a55-9f13-6efc8efe8f09)
 
 It is interesting to compare the cases n = 25 and n = 81 and see how the latter loses the symmetry one would expect for a square number, actually, this symmetry is first broken for the case n = 49, where the configuration including hexagonal packing is proven to be better.
