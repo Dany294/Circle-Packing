@@ -24,4 +24,4 @@ Some improvements that can be done are:
  - Proper scaling of the system, i. e. set the square box to have side lenght 2.
 
 ## Credits
-Ian Rincón (from Universidad de Colima) provided helpful insights during the course of this project.
+Ian Rincón (from Universidad de Colima) provided valuable insights during the course of this project.
